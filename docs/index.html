@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Context-Aware CNN</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Context-Aware CNN</h1>
+
+		<b>Table of Contents</b>
+		<blockquote><a href="#introduction">Introduction</a></blockquote>
+		<blockquote><a href="#demo">Demo</a></blockquote>
+		<blockquote><a href="#citation">Citation</a></blockquote>
+		<blockquote><a href="#dataset">Dataset</a></blockquote>
+		<blockquote><a href="#code">Code</a></blockquote>
+		<blockquote><a href="#method">Method</a></blockquote>
+		<blockquote><a href="#results">Results</a></blockquote>
+		
+      </header>
+      <section>
+        <h1>Context-Aware Convolutional Neural Network for Grading of Colorectal Cancer Histology Images</h1>
+
+        <p><em>View the <a href="">Publication</a>.</em></p>
+
+		<h2 id="introduction">Introduction</h2>
+        <p align="justify">
+			Digital histology images are amenable to the application of convolutional neural network (CNN) for analysis due to the sheer size of pixel data present in them. CNNs are generally used for representation learning from small image patches (e.g. 224x224) extracted from digital histology images due to computational and memory constraints. 
+		</p>
+		<p align="justify">
+			We propose a novel framework to incorporate larger context by context-aware neural networks based on images with a dimension of 1,792x1,792 pixels for classification and segmentation tasks. The proposed framework first encodes the local representation of a histology image into high dimensional features then aggregates the features by considering their spatial organization to make a final prediction.
+		</p>		
+
+		<h2 id="demo">Demo</h2>
+		<p align="justify">
+			An interactive colab based demo of the proposed method will be released by the end of July, 2019. A user can use any colorectal image for live testing of the proposed work by using the pretrained model.
+		</p>
+		<p align="justify">
+			An colab based demo on a specific set of images is already available <a href="https://colab.research.google.com/drive/1j5HP0WbJVj5z9IQpI5FRfWN4Ww2H4RJC">here</a>.
+		</p>
+				<h2 id="citation">Citation</h2>
+		The journal paper on this work is currently under review in <b>IEEE Transactions on Medical Imaging</b>. If you want to refer this work in your research, please cite our arXiv preprint on this work:
+<small><pre></pre></small>
+
+		<h2 id="dataset">Dataset</h2>
+		<p align="justify">
+			The dataset will be released by the mid of August, 2019.
+		</p>
+		
+		<h2 id="code">Code</h2>
+		<p align="justify">
+			The code will be released after the publication of this work.
+		</p>
+		<h2 id="method">Method</h2>
+		<p align="justify">
+			<img src="https://github.com/TIA-Lab/Context-Aware-CNN/blob/master/etc/Flow_Diagram.jpg?raw=true">
+			Flow diagram of the proposed context-aware framework for CRC grading. The top row shows the local representation learning. 
+			The bottom row illustrates the network architecture for representation aggregation learning which consists of multiple context blocks and other standard layers. 
+			Dashed lines represent the blocks of a specific network design whereas solid lines represent the common blocks. 
+		</p>
+		<h2 id="results">Results</h2>
+		<p align="justify">
+			<img src="https://github.com/TIA-Lab/Context-Aware-CNN/blob/master/etc/Visual_Results.jpg?raw=true">
+			Visual results of CRC grading are shown for patch classifier, existing context, and the proposed method on an image of size 1,792x1,792. 
+			The stride size for context networks is equal to the size of patch (224x224) used for patch classifier. 
+			Green, blue and red colors of overlaid rectangular boxes show the normal, low and high-grade predictions respectively, whereas empty box areas represent non-glandular/background regions.
+
+		</p>
+        
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="http://github.com/orderedlist">Muhammad Shaban</a></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
