@@ -1,6 +1,6 @@
-![IF FORKED DO NOT REMOVE](etc/flow_diagram.png)
+![IF FORKED DO NOT REMOVE](etc/Flow_Diagram.png)
 
-# A Novel Digital Score for Abundance of Tumour Infiltrating Lymphocytes Predicts Disease Free Survival in Oral Squamous Cell Carcinoma
+# [Context-Aware Convolutional Neural Network for Grading of Colorectal Cancer Histology Images](https://tia-lab.github.io/Context-Aware-CNN/)
 
 ### Table of Contents
 0. [Introduction](#introduction)
