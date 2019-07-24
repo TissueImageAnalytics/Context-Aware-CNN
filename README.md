@@ -1,4 +1,4 @@
-![IF FORKED DO NOT REMOVE](etc/Flow_Diagram.png)
+![IF FORKED DO NOT REMOVE](etc/Flow_Diagram.jpg)
 
 # [Context-Aware Convolutional Neural Network for Grading of Colorectal Cancer Histology Images](https://tia-lab.github.io/Context-Aware-CNN/)
 
@@ -45,4 +45,4 @@ See the list of [contributors](https://github.com/TIA-Lab/Context-Aware-CNN/grap
 
 ## License
 
-This project is licensed under the GNU General Public License - see the [LICENSE.md](https://github.com/TIA-Lab/TILAb_Score/blob/master/License.md) file for details.
+This project is licensed under the GNU General Public License - see the [LICENSE.md](https://github.com/TIA-Lab/Context-Aware-CNN/blob/master/License.md) file for details.
