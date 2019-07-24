@@ -1,5 +1,3 @@
-![IF FORKED DO NOT REMOVE](etc/Flow_Diagram.jpg)
-
 # [Context-Aware Convolutional Neural Network for Grading of Colorectal Cancer Histology Images](https://tia-lab.github.io/Context-Aware-CNN/)
 
 ### Table of Contents
@@ -13,6 +11,9 @@
 ### Introduction
 
 This repository contains the implementation of Context-Aware CNN as described in the paper.
+
+![IF FORKED DO NOT REMOVE](etc/Flow_Diagram.jpg)
+
 
 ### Citation
 
