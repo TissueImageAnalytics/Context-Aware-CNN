@@ -17,6 +17,11 @@ This repository contains the implementation of Context-Aware CNN as described in
 ### Citation
 
 The journal paper on this work is currently under review in **IEEE Transactions on Medical Imaging**. If you want to refer this work in your research, please cite our arXiv preprint on this work:
+@article{Context-Aware Convolutional Neural Network for Grading of Colorectal Cancer Histology Images},
+  author={Shaban, Muhammad and Awan, Ruqayya and Fraz, Muhammad Moazam and Azam, Ayesha and Snead, David and Rajpoot, Nasir M},
+  journal={arXiv preprint arXiv:1907.09478},
+  year={2019}
+}
 
 
 ### Dataset
